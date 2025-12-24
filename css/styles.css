@@ -1,0 +1,371 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding: 40px 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 30px 0 20px;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a:hover {
+  color: #A7FF83;
+}
+
+@media (max-width: 1600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    text-align: center;
+  }
+
+  .navbar {
+    text-align: left;
+  }
+
+  .left {
+    text-align: left;
+  }
+
+  .right {
+    text-align: right;
+  }
+}
+
+/* navbar */
+.navbar {
+  padding: 1% 10%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.collapse {
+  margin-right: 5%;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* gallery */
+/* hometitle section*/
+.top-row {
+  padding-top: 40px;
+}
+
+.col-gall-1 {
+  background-color: #fff;
+  color: #071A52;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px 10px 0;
+}
+
+.col-gall-1:hover {
+  background-color: #071A52;
+  color: #fff;
+  transition: 0.2s;
+}
+
+/* zagreb section */
+.col-gall-2 {
+  background-color: #ffffff;
+  color: #086972;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px 10px 0;
+}
+
+.col-gall-2:hover {
+  background-color: #086972;
+  color: #fff;
+  transition: 0.2s;
+}
+
+/* all sections */
+.image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* features section */
+.feature-box {
+  padding: 2% 4.5%;
+  text-align: center;
+}
+
+.icon {
+  color: #A7FF83;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #17B978;
+  transition: 0.2s;
+}
+
+.feat-text {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+/* bottom section */
+.btn-bottom-1 {
+  border-color: #071A52;
+  border-width: 2px;
+  color: #071A52;
+  margin: 0 0 0 30px;
+  height: 40px;
+  width: 140px;
+}
+
+.btn-bottom-1:hover {
+  background-color: #071A52;
+  border-color: #071A52;
+}
+
+.btn-bottom-2 {
+  background-color: #071A52;
+  border-color: #071A52;
+  border-width: 2px;
+  margin: 0 0 0 30px;
+  height: 40px;
+  width: 140px;
+}
+
+.btn-bottom-2:hover {
+  background-color: #fff;
+  border-color: #071A52;
+  color: #071A52;
+}
+
+.copyright {
+  color: #086972;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.75rem;
+  padding: 50px 0 0;
+}
+
+@media (min-width: 1300px) {
+  .btn-bottom-1 {
+    width: 200px;
+  }
+
+  .btn-bottom-2 {
+    width: 200px;
+  }
+}
+
+@media (max-width: 990px) {
+  .btn-bottom-1 {
+    width: 240px;
+    margin-bottom: 10px;
+  }
+
+  .btn-bottom-2 {
+    width: 240px;
+    margin-bottom: 10px;
+  }
+}
+
+#bottom {
+  background-color: #fff;
+  padding: 3% 10% 0;
+  text-align: center;
+}
+
+#zagreb {
+  background-color: #086972;
+  color: #fff;
+  padding: 5% 10%;
+}
+
+#aboutus {
+  background-color: #086972;
+  color: #fff;
+  padding: 5% 10%;
+}
+
+#options {
+  background-color: #071A52;
+  color: #fff;
+  text-align: center;
+}
+
+#features {
+  color: #071A52;
+  padding: 1% 10%;
+  text-align: center;
+}
+
+#dalmatiatitle {
+  background-color: #086972;
+  color: #fff;
+  padding: 5% 10% 3%;
+}
+
+#hometitle {
+  background-color: #071A52;
+  color: #ffffff;
+  padding: 5% 10% 3%;
+}
+
+#€title {
+  background-color: #071A52;
+  color: #fff;
+  padding: 5% 10%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 200px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #17B978;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #17B978;
+  border-color: #17B978;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.imgSlideA {
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.row-close{
+  text-align: center;
+}
+
+.close:hover,
+.close:focus {
+  color: #071A52;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* .mySlides {
+  display: none;
+} */
+
+/* .cursor {
+  cursor: pointer;
+} */
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  text-decoration: none;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a #17B978 background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(23, 185, 120, 0.8);
+  color: #071A52;
+}
+
+.caption-container {
+  padding-top: 1rem;
+  color: #fff;
+}
